@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/mmuntazir/argocd-demo.git
+    repoURL: https://github.com/mmuntazir/argocd-demo/tree/main/argocd-demo-marcel.git
     targetRevision: HEAD
-    path: argo/example-app
+    path: example-app
     directory:
       recurse: true
   destination:
